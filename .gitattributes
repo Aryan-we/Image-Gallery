@@ -1,0 +1,11 @@
+# Force all .php files to be recognized as PHP
+*.php linguist-language=PHP
+
+# Treat all .html, .css, .js normally
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+
+# Ignore vendor/data folders from language stats (optional)
+vendor/* linguist-vendored
+data/* linguist-vendored
